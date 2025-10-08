@@ -12,7 +12,7 @@ language_options = ["English", "Hinglish"]
 def main():
     st.subheader("LinkedIn Post Generator: Kabir Bhatia")
 
-    # Create three columns for the dropdowns
+    # Create three columns for the dropdownsq
     col1, col2, col3 = st.columns(3)
 
     fs = FewShotPosts()
